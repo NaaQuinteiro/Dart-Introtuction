@@ -55,7 +55,13 @@ main() {
   }
 
   //OPERADOR OU ||
-  //sensor_umidade = true;
-  //sensor_chuva = true;
+  sensor_umidade = true;
+  sensor_chuva = false;
+  
+  if (sensor_umidade || sensor_chuva) {
+    print("Pelo menos um dos valores é verdadeiro");
+    print('$sensor_chuva' +' OU ' + '$sensor_umidade');
+  }
+
   
 }
