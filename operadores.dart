@@ -60,8 +60,9 @@ main() {
   
   if (sensor_umidade || sensor_chuva) {
     print("Pelo menos um dos valores é verdadeiro");
-    print('$sensor_chuva' +' OU ' + '$sensor_umidade');
+   
   }
+  print('$sensor_chuva' +' OU ' + '$sensor_umidade');
 
   
 }
